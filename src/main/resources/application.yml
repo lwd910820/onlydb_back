@@ -1,0 +1,36 @@
+#datasource
+spring:
+  datasource:
+    name: test
+    username: grgl
+    password: grgl
+    url: jdbc:oracle:thin:@192.168.1.105:1521/orcl
+    driver-class-name: oracle.jdbc.OracleDriver
+    dbcp2:
+      initial-size: 20
+      min-idle: 10
+      max-idle: 50
+      max-wait-millis: 60000
+    type: org.apache.commons.dbcp2.BasicDataSource
+
+#mybatis
+mybatis:
+#  mapper-locations: classpath:onlydb/mapper/*.xml
+  type-aliases-package: com.onlydb.data.mac.entity
+
+#netty
+netty:
+  mac:
+    port: 12001
+  http:
+    port: 8080
+#log property
+logging:
+  file: D:\log\myspringboot.log
+#请求地址配置
+httpurl:
+  single: /single
+  multiple: /multiple
+#任务调度
+
+

@@ -1,0 +1,22 @@
+2018-12-24 09:44:09.876  INFO 42808 --- [main] com.onlydb.OnlydbApplication             : Starting OnlydbApplication on Hasee-PC with PID 42808 (E:\myworkspace\onlydb\target\classes started by Administrator in E:\myworkspace\onlydb)
+2018-12-24 09:44:10.001  INFO 42808 --- [main] com.onlydb.OnlydbApplication             : No active profile set, falling back to default profiles: default
+2018-12-24 09:44:10.643  INFO 42808 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@56620197: startup date [Mon Dec 24 09:44:10 CST 2018]; root of context hierarchy
+2018-12-24 09:44:14.573  WARN 42808 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.onlydb.data.mac.dao]' package. Please check your configuration.
+2018-12-24 09:44:21.146  INFO 42808 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-12-24 09:44:21.161  INFO 42808 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-12-24 09:44:21.161  INFO 42808 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [org.apache.commons.dbcp2:name=dataSource,type=BasicDataSource]
+2018-12-24 09:44:21.286  INFO 42808 --- [main] com.onlydb.OnlydbApplication             : Started OnlydbApplication in 17.966 seconds (JVM running for 31.362)
+2018-12-24 09:44:24.087  INFO 42808 --- [pool-2-thread-2] com.onlydb.macServer.MessageServer       : Socket通信端口启动：12001
+2018-12-24 09:44:24.087  INFO 42808 --- [pool-2-thread-1] com.onlydb.httpServer.HttpServer         : HTTP通信端口启动：8080
+2018-12-24 09:44:39.223  INFO 42808 --- [nioEventLoopGroup-5-1] c.onlydb.macServer.handler.CountHandler  : 当前连接数1
+2018-12-24 09:44:39.239  INFO 42808 --- [nioEventLoopGroup-5-1] c.o.macServer.handler.AMessageHandler    : 223.104.63.108:33931已加入非法连接库
+2018-12-24 09:44:39.379  INFO 42808 --- [nioEventLoopGroup-5-1] c.o.macServer.handler.AMessageHandler    : JZ:null:65432100020207050000000000000000000000000000
+2018-12-24 09:44:39.567  INFO 42808 --- [nioEventLoopGroup-5-2] c.onlydb.macServer.handler.CountHandler  : 当前连接数2
+2018-12-24 09:44:39.567  INFO 42808 --- [nioEventLoopGroup-5-2] c.o.macServer.handler.AMessageHandler    : 117.136.79.17:9019已加入非法连接库
+2018-12-24 09:44:39.567  INFO 42808 --- [nioEventLoopGroup-5-2] c.o.macServer.handler.AMessageHandler    : JZ:null:65432100010107000000000000000000000000000000
+2018-12-24 09:44:41.647  INFO 42808 --- [nioEventLoopGroup-5-1] c.o.macServer.handler.AMessageHandler    : jqxx数据库插入成功
+2018-12-24 09:44:41.647  WARN 42808 --- [nioEventLoopGroup-5-1] c.o.macServer.handler.AMessageHandler    : 223.104.63.108:33931已在非法库中删除
+2018-12-24 09:44:41.647  WARN 42808 --- [nioEventLoopGroup-5-1] c.o.macServer.handler.AMessageHandler    : 223.104.63.108:33931已加入合法连接库
+2018-12-24 09:44:41.647  INFO 42808 --- [nioEventLoopGroup-5-2] c.o.macServer.handler.AMessageHandler    : jqxx数据库插入成功
+2018-12-24 09:44:41.647  WARN 42808 --- [nioEventLoopGroup-5-2] c.o.macServer.handler.AMessageHandler    : 117.136.79.17:9019已在非法库中删除
+2018-12-24 09:44:41.647  WARN 42808 --- [nioEventLoopGroup-5-2] c.o.macServer.handler.AMessageHandler    : 117.136.79.17:9019已加入合法连接库

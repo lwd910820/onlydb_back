@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Class-Path: spring-boot-starter-logging-2.0.6.RELEASE.jar spring-jdbc-
+ 5.0.10.RELEASE.jar spring-boot-starter-2.0.6.RELEASE.jar spring-boot-
+ starter-jdbc-2.0.6.RELEASE.jar mybatis-spring-1.3.2.jar mybatis-3.4.6
+ .jar javax.annotation-api-1.3.2.jar spring-core-5.0.10.RELEASE.jar lo
+ gback-classic-1.2.3.jar jul-to-slf4j-1.7.25.jar spring-tx-5.0.10.RELE
+ ASE.jar spring-expression-5.0.10.RELEASE.jar log4j-to-slf4j-2.10.0.ja
+ r spring-context-5.0.10.RELEASE.jar spring-aop-5.0.10.RELEASE.jar log
+ back-core-1.2.3.jar snakeyaml-1.19.jar commons-pool2-2.5.0.jar spring
+ -boot-2.0.6.RELEASE.jar mybatis-spring-boot-starter-1.3.2.jar log4j-a
+ pi-2.10.0.jar spring-boot-autoconfigure-2.0.6.RELEASE.jar HikariCP-2.
+ 7.9.jar spring-beans-5.0.10.RELEASE.jar ojdbc6-6.0.jar spring-jcl-5.0
+ .10.RELEASE.jar mybatis-spring-boot-autoconfigure-1.3.2.jar slf4j-api
+ -1.7.25.jar netty-all-4.1.28.Final.jar commons-dbcp2-2.2.0.jar
+Main-Class: com.onlydb.OnlydbApplication
+
